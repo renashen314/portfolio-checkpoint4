@@ -104,6 +104,10 @@ a:visited {
     margin: 0 auto;
     padding: 20px; 
     gap: 10px;
+    max-width: 80%;
+}
+.items img {
+    max-width: 60%;
 }
 
 main {
@@ -330,6 +334,9 @@ aside {
     .content-box {
         
     }
+    .items img {
+        max-width: 400px;
+    }
 }
 
 @media screen and (min-width: 1024px){
@@ -338,6 +345,9 @@ aside {
     }
     aside {
         display: none;
+    }
+    .items img {
+        max-width: 600px;
     }
     
 }
